@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="facts.css">
+<style>
+    ::selection{  color: #050000;
+      background: #fff;}
+    
+    nav{ 
+      background: darkslategray;
+      height: 25px;
+      width: 1250px;
+      padding:10px 0;
+      z-index: 12;}
+    
+    nav .menu{ max-width: 1250px;
+      margin: auto;
+      display:-moz-groupbox;
+      text-align: center;
+      justify-content: space-between;
+      padding: 0 20px;}
+    
+    .menu ul{  display: inline-flex;}
+    .menu ul li{  list-style: none;
+      margin-left: 7px;}
+      
+    
+    .menu ul li a{  text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 8px 30px;
+      border-radius: 5px;
+      transition: all 0.3s ease;}
+    
+    .menu ul li a:hover{  background: #fff;
+      color: black;}
+    
+    .center .btns{  margin-top: 20px;}
+    
+    .center .btns button{  height: 55px;
+      width: 170px;
+      border-radius: 5px;
+      border: none;
+      margin: 0 10px;
+      border: 2px solid white;
+      font-size: 80px;
+      font-weight: 500;
+      padding: 0 10px;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.3s ease;}
+    
+        </style>
+</head>
+<body>
+    <div id="main">
+        <div class="eren">
+            <div class="goku">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEBUSEhAWFRUXGBUWFRUWGBUVFxUVFRUYGBgXGBUYHSggGBonHhcXITEiJikrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGy0mICYtLS0tLy0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcBBAUDCAL/xABMEAABAwIDBQQGBgYHBQkAAAABAAIDBBEFEiEGMUFRYQcTInEUMkJSgZEVI6GxwdFUYnKCkpMkM2Oio9LhFzRT4vAWJUNFVXOys9P/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAgMEAQUG/8QAMhEAAgECBAIIBQQDAAAAAAAAAAECAxEEEiExQVEFE2FxobHB8BSBkdHhIjJC8SMkYv/aAAwDAQACEQMRAD8AuFERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAWhiWOU1NpNURsPulwzfwjX7FXO2vaC97nQUb8sYuHTD1nnjkPst67z0G+vXOJJJNydSTqSeZKrc+RhrY2MXaKv5F5Hb/Df0r/AA5/8ix/2/w39L/wp/8AIqMRczszfH1OS+j+5ef+0DDf0n/Cm/yLyk7RcMbvqT/Km/yKkCbLVpqSWsqI6aEXkkdlbyHEuP6oAJPQIpstpYurUlay+n5PoTAdtKOukMVNI+RzRd1opQ1oO4ue5oaNxtrrZMU22w6lcWTVsYcNC1uaRzTyLYw4j4qrdssQbh8YwjD3lrWa1kzdHzSuAu0vGu7fbo3cCFCYsPACk5WNFXExp6cT6YwbHaasaXU1QyUDflOrb7szTq34hdBfL9BUTUUzainfkkZuPAji1w9pp4hfReyuOsxCkjqGC2YWezfkkGjmfA7jxBB4rsZXLKVeNRaHVREUi4IiIAiIgCIiAIiIAiIgCIiAIiIAiLKAKBdqW0vcxeiRO+slH1hHsRHh5u3eQPMKZCuzB3dtzEA5LnK17gNADwF+KprCtn6nE6mWSZxYc5ErspcRIN7GsuLWFhqQALKE29kZsTOSWSC1ftkVRdbabBH0NS6B5zWs5r7WzscNHW4cR5grkqo8WUXF2YRWPsxsFDVUEczi7vJM5vnyhoa8tbZuU39W+vNQHGaX0eaWIuv3b3svuvlcRe3Dcu2ZbLDzik3x/s5ddLZpN1ONn4voTDTXyNHptWMlMxw1jjNjmI8rPP7jdLlcfs/wFtdUOqKizaOl+smLvVe4C7YzzGmZ3QAe0tXajHX4nWOndcMHhhYfYjB00947z1NtwCktFc3QSoU8z3OZTMJJc4kuJJJOpJJuSTxN1sLICwoHmSk5O7NihYDK0EX3/cVK8GldGSI3FgOpDCWgnQXIG8qM4UPH8/uKkWHesfL8Qsld6n0nQ8f8DfOT8kWVsXUl8Lw5xcQ/iSTYtFt/DQ/apAoHsvOYi6QDwgtD7b8rr/Pdp1sPaK2tqO0miorsY70ib/hxEFrT+vJ6rfIXPRbMPK9NFmISjNsmSKDdn2IVuIudW1Lu7h1ZT08ejSdzpHne+3qi+l8xsLBTlXJ3KU7q4REXToREQBERAEREAREQBEWUARFAe1fan0WFtLGSJJwczt2WIGzrHm7d0F+i43ZEZyUYuTOvg20kFZLKyF39W6w/Xbuzt/VvcfLmupRUgbO+Vmnehvet/tGaNkA5lpLT+y3qqDwjEn00rJojZzT8HDi09CNFeeCYsypiZPGdHbxxaeLT1H+qjGVzNhsR1qtLRr35EY7YsMzQw1IGrHGJ/wCy/VpPkQR+8qoX0PtHh4qqOaG2r2HL+23xM/vAL54UZrUxY+CjUUufoXv2dOvhdP5SD5SvCpLaOmlq8VmpoG3kkqJWNHC4e67jyaACSeQVzdmD74XD0dMP8Z5/Fauw2yPo9TV1szfrpp5+6B/8OAzOIPm/Q+Qb1UrXSPQjDPCF+S8jsYTsrT09B6BlzRljmyE75HPHjeepOo5WHJUVimFOo55Kd/rRutf3m72uHQgg/FfSirntewHPE2tY3xRWZLbjETo791x+TjySa0I4ulnp3XAqhERVHiHQwj1ifJSDDvWPl+IXBwYau+H4ru4d6x8vxCx1v3M+s6KX+rH5+bNXayomZC0RSvYHEB4aSA8AEgOtvFxuXJwDADX1jImNy5rOkI3MaLZn/l1IXc2mH1BPIg/ePxVg9m2zfodN3kjbTTWc++9jPYj6b7nqeivwyzR7rmXGKU8Rk/jZN+JKaSlZDG2ONuVjGhrWjg0CwXosrC2kwiIgCIiAIiIAiIgCIgQGUREAXH2r2bhxGnMMosRrHIB4o38HDmOY4hdhZQHzNiuGzUNQ6nqG2c3UEeq9h3PaeLTb7COCleyFU9kTskjmgu4EjcFZ22WykWJwd2/wyNuYZbXMbj97DYXH4gFVvs3hE0DZIJmZZI3kOHAggZXNPtNIGhWTEpqF0V4TDKGJzcLM7IxaoG6eT+IrmOpIySSxpJ1JtvJW/wChv6fNfuDDZHuDWgEk2GqwZpPiezlhyR1di6ORzg1jnMgjOYtaS1pcdcthz3n/AFU9WnhdA2nibG3hvPvOO8/9dFuL1aNNwjZ7nnVJqUtFoFzser6aCB7quRjInAsdnOjw4WLQN7iRwGq0drMQrIoXehUvey6Bpdlyi51OUuBdYX5cN6pjE9lMYqpTNVQTyv5usQ0cmtabNHQAKeYoqTyLa5yXujzvETi6MOdkc4WcWX8JI4G1l6MFtSukzZCsjF/Q5f5bvwC8pMCq+NJN/Kk/yqk8OdOWbSL+j+x6YTuceo/H812sO9Y+X4haFBh8zI/FBKN++N4/Be9Cyd0zWRxOzOIaA5pF7nibac7rFU1kz6vArLhoJ8vVsmOzOCNqZM0jbxxlriODntOZo6i4uflxVgrVwuhbTxNjbw3n3nHeVtr0KNPq4W48TPVnnm5GERFaVmEQogCIiAIiIAiIgCyubjb6pseakbE949iUubm8ntOh8xbqFWmI9puIwSGKWkhhePZe2S/mPHZw6jRcckiE6kYK8i3UVMntRxA7m0w8o5PxkXme0vEfehHlH+blHOij42jz8C60VHv7RcSO6dg8oo/xBWvJt9ilv98+UVP/APmmdEfjqXb9C+FpYrhrZ28nj1Xfgeii3Zftc6vhdFO69REfEbAd5G4+F9gALg+E26HipwutKSs9jZCe0olfTROY4tcLEbwpLs3h+RveuHicPD0bz+P3LfrsNjmLS4atPDiPdPRboWalhsk238jRUr5o2XzMrCyi1mcwiyiALCIgMXS6jG1+3VJhjgycSukc3M1kbCbtuRfO6zN453Vc4v2z1UlxS0scQ9+UmV1v2RZoP8S5ci5Jbl2FcDGttcPo7iasjDh7DD3j/wCBlyPiqJbX4lisoimrZXZgfDfJHoL/ANXHZp3cl3aDsmmfYCVg82n811KUldIrdZfx1O/i/bXGLiko3v8A15nCNvmGNzEjzIU82L2hbiNHHOAA/wBWVg9iVvrAdDoR0IVD4zs/6HUPge4OLCLkXsbtDuPmpF2b496DVhjzaGazH33Nf7D/AJmx6OvwVeZ3syiGLTnlZeSwsrCsNoREQBERAEREAWljODU9ZH3dRE2RvC/rNPNrhq09QVur8VE7Y2Oe92VrQXOJ3BrRcn5BDjKN242TZhsrBHUF7ZA4iNw+sY0aXLhoQToDYbjyUbXS2gxd1ZUyVDtMx8LfdYNGt+W/qSvfCdnZqgZh4WcHG+vkFRu9Dw5rrajVNHGRd/GNmJKeMyZ8wFr6Wtc25m65EFKXOY3i/wBXqblo/vCy49CEqM4yytamMIxWSgqo6qLUsPibuD2H1mHzHyNjwX0bhtdHUQsmidmZI0Oaeh5jgeBHML509GDoHP4tc0O8nA5T82H5hTXsh2iMEzsOmNmvJdDf2ZN74/J1rjqD7ynB8Dfg6rX6X8i3wsoobWbayRGdxorwU8piklEzc18waCIiwX3jS/HerG0jfKajq/X0JksqMs2lmfWSU8VKxzYnxtdI6drDaQA5hGWakC+gPDqvGXa2ZzpHU2HvngieWPla9rXOc0+Lu4rEvt9vRLoj1kfaf2JYijlZtayCbLNEY43QmaKRxIc8tALonRloLHjlc8Oa13bWyllO1lEXVNQwyNgEgAZFwe+RzRa41tbomZHXUiuJKlhRefaySOnMktE+ORsscTo3us36w2zsly2kbpwH4E7O0W0ElNUQwRU7ZXSte4F0ohAyWvqWkJmQ6yNr93Pj4nO7TtmPT6Mljbzw3ki5uFvHH+8ALdWtVD0kbXC4C+oqKRzo2Oe0McWguaHB4aSNQHj1h1VIdpmAegVvfRt+pqCXjkyXe9nQG+YeZHBQmuJmxdPNHMjy2AsyvisL3DxuJ3sdy3eauCne4O0bcqF9m+DiOD0lw8cvq/qxtP4kX8gFN6Y2eFuw8ctLXjqVUFlhqUzt5IXYjUEixzNFrEbmNHHy38VHntuLK1u1jAQ+JtYweKOzZLcYybNd5tJt5O6KqlgqK0mYK0XGb+pdnZptF6ZSZJHXmhsx997m+w/4gWPVp5qWr582Xxx1BVsnF8nqStHtRu3/ABGjh1avoGKRr2hzSC1wBaRuIIuCPgpwd0exhq3WQ7UfpERSNAREQBERAFX/AGt473cLaRh8UviktwiB0H7zh8mnmrAVdVmyrKyaSpqJHF0jjlaCBlYPCxuoN7AD43WfEV4Uks3H2zkqFWtBxpb9unu5VzG8VbWz+IP7sPb3ercoyEuaARa1nAWPRV5tVh0VNP3UUuawBdoBkcfZuN5tY7uK5tHXSQnNHI5h6HQ+Y3H4pTqJrMtmeRSqPDVJQkr8HZ8vMsbayZrKR+YXBytsDYm7hxseAKilD3JfStyuBBLvXacrc5dd3hFxZpdw0K5mI4xPUANlkLgNQLNaL87NAuVqGpc3Mb6luW/HLa1hy008tFKUrslUxSlUzJct++50JamEQzFr3APfGPE0aG7naZXG+i/Fe0OMkkcgzsbA8EGzmyN7sBwuBrqStrs/wX6SrGMc29PB9dPfc9xPgYehLd3Jr+atvaXYikrg4uZ3UrrEyxWa5xG7ONz/AI69V1R0NNOjeCatf+/ub2yWMGrpWPeAJQA2Zo3CQDW3Q7x59FG6jYeQzyVIETpfSnSxh5cWPhcbmOTwmzr66A25rnYZR1+D1LXSM9IpXWZLNEDmaz2ZJItSC06ki4tm1urNab6g3HAqe5pcYzWq2IcdmqgYjLVCGlka+SJ7XSmQyxBgAJZZlg7jv4BfuLAsQpjLFRzwiGSR0jXSB5khLzdwa0Atf0v9imCJlQ6uPn47kb2r2dfWQU8eZr3RSRvkfJ4c8YaRJo1tru000GnRfrHsGndUx1lI+NszGOicyTN3ckbje126tIP4KRIu2OuEX4eGxD8UwKuqKQtlnifKZY5WtsWRRtYScjXBuZ3mf9T445gFZVyQTSRUj3RiVr4nulMRzkZSPBckb/OymqLmU46cXv2eGxrYfG5sUbXNY1wa0Fsd8jSABZl9co4LmbX4AzEKSSndYOPijf7kjfVd94PQldGhr45u87t1xHI6Jx4Z2AZgPIm3mCtpdsT0asQfZqoswQkZTH4Mvu5NLfYu6w2IPULk7VUhgmbVMHheQ2To/c13xAt5gc10IJw5odcar0ac1KJQ4u9kdSupGzRPid6r2uYfJwsqAw7BZ55HxRsBey+YEhtrOynU9V9BCoZ77fm1Vts1RubX1zsth3rg02s0tdK9wtz0AN91vNefVtJozzoZ5RUk7fj8EVqtjayOJ0rohkaC5xD2GwbqTa+qnPZDjRkgfSvNzDYxk/8ACeTp+66/wcBwXbr4HSUkzN+ZkjbN0cbtOgJ0uq87KJC3EgPeikafhZ33tVf7ZKx1QVCtFR2luXQiIrDeEREAREQBVhtRj7qUPpGAifQB1tO7eTZzSDod1j15qz1xdpsLglj76XO10QJEsQJkY32tADnZxLbHdcarPXw8atm+GxJTkoyjF2vx4rtXybK4pdhKioYZqifu5C6xa4ZnECwzFwd9nReG3OzcFGGPhe6xsMriDazTmdm366acLnyEjphHLrFjFJIOr2td8W5iQuTjmx8lW8F2LUgDdGtzXtfeb5t5sPks0IYhzWbRLu9CqthMMqTUNZPi/Pz79LkButSul4DU8ANSTyAU2/2bH/1ak/i/5l1Nl9goKesjqKjEaaVsRztY1zReQeoTmduB8XmAtaizzaeCmpLMTbs72a+jqFkbh9c/6yc/2jgPD5NFm/AnipQtH6Xpv0mH+ZH+afS9N+kw/wAyP81ceqlY3kC0fpem/SYf5kf5rP0vTfpMP8yP80BvItH6Ypv0mH+ZH+afS9N+kw/zI/zQG8i8aepZILxyNeAbEscHAHlcHevVAFHdvtoxh9E+UEd676uEf2jh61uTRd3wtxUiXz/2ibQfSFcchvDBeOLk438cnxIA8mtXJOyKq1Tq4Nk+7FJCcPkBJJFQ+5OpJMcbiSeJ1VhKq+x7GKeCmnZNURREzZgJJGMJBjYLgOIuPCp07a3DxvxCm/nR/muReh2k/wBC7jpVtK2aN0bxdrgQfzHUb/goXhYMcjqeX1mG3K44OHQixXddtnhw/wDMKb+az81ycdqIKpnplJMyXuSGSmNwd4DrrbiL38ieS5UbyNI1YeSjVUn7vp5HeNBAG3Djmtf1hv5WWnJEG7hv3+a86GpEjA4L3l3KilUTlorGytGXVvPJvjqfujO/4KO7N4CIcYqJG+oGB46OmO7+5J8CFIKTeV1qeENubam2Y87blpaueXKCk03wdz1REXSQREQBERAECIgKF7T9iG0lT3sTLQTEloA0Y/e5nQcR0vyUL+ix7oX1DjmFR1lO+CTc4aHi1w9Vw6gr5/xXD5KaZ8Mos9hseR5OHQixHmqpabHm4rPTd47PzI79FD3R8l6twlo1IHlZdNjrLDjcqNzJ8RU5nLdhoPsj5L8/RQ5BdVEuc+IqczlfRQ90L8nCx7oXciYTuHP7r/6ro4fg8tRfuYC5o3kaAHlqd/RQlVy7nsYDozGYyk60JRUU7Xk2rvs0fPdkO9DbcANv8Ny9X4a0C5AUuptn5nOe0UshLT4wGOOUnXgNOfxXMxCmc5wibGGyOs0A39dzrWNybakKKqmx9A47K5uUNP8Aptvwt3XevdqXT2TYaKfCYNLGTNMf33HL/dDVL1r0NK2GKOJvqxsaxvkxoaPsC9ZHhoLnEAAEkncABck9FsSKFsQ3tU2k9DozHG601ReNlt7WW+sf0sDYHm4clSVPFlaurtVjhxGtfUa92PBCDwibu05k3cf2ui56pk7s8jGVs8rLZGq+jBNyseghdihoDKR4gLm26615Isry3kTr5GynKlOMVKS0exm6yW1zQ9CCkOweOjDqwF/+7zARTg7g0nwvP7JJv+qXLlOFl4zx5gq0ydKtKEky5oozR1LoCfAfFGebDu15jd8Oq7Um5QnY/EjiOH9yTeqo7FnOSE6AX4mwynq1h4qUYXWiWIG+uijGGWd1sz6yFZVaDfYdXC2XceQXWXhRQ5GAcTqfNe60mEIiIAiIgCIiAIiIAoV2nbM+kw+kRN+tiHiA3viGpHUt3j4jkpqi41dEKkFOLiz5mRTPtF2UNJKZ4m/0eQ303RPO9p5NJ3fLhrzNjsBNXPqPqmWe8nc4+y348el+ix16saFOVSpsvfi9F2nirDVHVVJLV+79x3tntiIqikPfuex8pZlcw5XMbmDvDe4uRvJG425qD1bA2R7W+qC4N8gSB9ivWBoBjANxnNzzIa8n7QoQ/svNz/TBbrEb/HxrwOjulYvrKmJnZN6J3suxacNO/fe56+OwEssIUI3tu9E/ntvqV6Dbl8VMuzatPfyxkjxNzae8z/Rx+S/UmwIse7ro3OHBzSwfxXP3LT2Fpv6YWOsbNlDrG4ItlNiN413hewsRQrwl1cr2339e4y4SnXoYmmp3Sb2vo91snwu7d5buFyeEC/F3xIsB9x+SqyB5xDaQXF2Ryud5CnByn+NrT8VZeH0zMrHFv9WXOZv8Jylo/uvcNVBeyShLq+uqHD1LxA/rSSOc/wCI7tv8S00FeMT1sY5Z0lpq7/QthRHtSZO7C5hB+r33vdwD48v2X/VzKWLDhcWIuDoQeIWtlDV1Y+YoW2C/akG3Gz30fVljR9TJd8J5C/iZ5tJt5Fq4kEJebD4nkqYwlKWVLU+fqQcJNM62AjVn7a59e60klvff/wDIrp057sAN4G4PXmsYthgc3v4xobl7d9jxI+K9fF4ep8NFJXy7/QqbtIxDslXPaHNpnFrgHA5o9QRcHVy0sXweekLRPEYy8XaCWm4va/hJVv7HVQmoYHA3IY1h/aZ4Df5X+Kg3avXCStaxpuIomg9HuJJ+zKfivOqUYxgpJslB3Tv79+qIlgeLvw+rjqmXIabPaPbjPrt+Wo6gK5sOw+2ISBn9TlbOOX1l7N/iDj5BUZUtJbYC5OgA1JJ3ABfS9BT93Exp9ZrGMJ55G2/P5qqCuex0fVlkkj3REVpsCIiAIiIAiIgCIiAIiID8zwtkaWPaHNcLOa4XBB4EHeuRNgxhhLKJsbDrla+4bc8TlFz/ANarsos+JwlHExy1o3XvkdjJxd46FbQ4ZjUUxflbM02GTvGtYADcZBdpYRzt53XdnoZKyMR1dBIBzbNEQD5se0n+FS1Fnl0Zh21KKcWtnF5bengRimk022nwevmVxW9lzTrBM+M8n5XjyuCCPtWjhOzGI0cznxwRyb23zi2UkG4uQRuG8K1UV6w2lpTlLvt6JF2FqRwzk6cI/q3um9uWuny305Ir94xuzw2CEB1iG3jOXoDn48b/AAsu5sDhEtNTvM8bWTTSvlka0ggE2aLEE7w0Hf7RUkRWwpqGxZXxLrbxiu5flmUWEVhmOFtps+K+kdFoJG+OFx4SAaAnkfVPnfgqWoGFrS1wLXhzmvB3hzTYg+Vl9DKtO0vAu6kFZGPC8hswHB+5r/juPUDmtWBcY1k3yt5GHHUc0c64eRDY2lxyta5xAuQ1pcQOdgN2q7mD00uUgwyb/cdxHktnsqP/AHjL/wCw/wD+2FWxdba+NlTqOKSM1LAxrU8zb1KWwXDa2KSpEcNSxhiqAwBsrAXkWYRu8XIrmM2RxGR1/Q5SSbkvs25PEl5Cvu6Lx5JPx8TSuj6fNlcbG9nToZW1FYWlzCHRxNOYBw3Oe7cSOAHGxvwVjoiJJGunTjBWiERF0mEREAREQBERAEREAREQBERAEREBlFhEBlFhLoDKLCIDK8K2lZNG+KRuZjwWuHMH7j1XsiArPYTCn0eLzQP1LYH5Xe+wyxZXfEb+oIVmLXdRsMzZrfWNY6MO/Ue5riDz1YPLXmthWVajqSzPsK6dNQjlQREVZYEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREB//9k=" width="146px" height="146px">
+            </div>
+            <div class="gohan">
+                <h1>Facts and Figures</h1>
+            </div>
+        </div>
+        <br>
+        <br>
+    <div id="mikasa">
+        <nav>
+            <div class="menu">
+              <div class="logo">
+                <a href="#"></a>
+              </div>
+        
+              <ul>
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="factsandfigure.html">Facts and Figures</a></li>
+                <li><a  href="Plastic-freeliving.html">Plastic Free Living</a></li>
+                <li><a href="Reduce.html">Reduce</a></li> 
+              </ul>
+              
+            </div>
+          </nav>
+        <br>
+        <div class="vegeta">
+            <div class="hima">
+                <div class="jima">
+                   <div class="rima"><u>PLASTICOCALYPSE</u></div>
+                </div>
+                <div class="lima">
+                    <p>Over the past seven decades, humans have produced more than 8.3 billion tons of plastic, and a significant portion of it has ended up in landfills or the natural environment. While plastic has brought many conveniences to modern life, its overuse and improper disposal have led to severe environmental consequences. Plastic waste is non-biodegradable and can persist in the environment for centuries, causing harm to wildlife, polluting waterways, and contributing to climate change. The scale of plastic production and waste has become a global challenge, requiring collective action from individuals, industries, and governments to reduce plastic use and improve waste management practices.</p>
+                </div>
+            </div>
+            <div class="kima">
+                <div class="eima">
+                    <img src="https://as2.ftcdn.net/v2/jpg/03/22/10/27/1000_F_322102765_Cdkb0NXzp0hNUXqjHcL0dDwTGVVxsXlv.jpg" width="680px" height="480px" class="uima">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="segeta">
+            <div class="tima">
+                <div class="pel">
+                   <div class="cse"><u>PLASTICSUFFOCATION</u></div>
+                </div>
+                <div class="klt">
+                    <p>Every year, an estimated 8 million tons of plastic waste end up in the world's oceans, causing significant harm to marine life and contributing to ocean pollution. Plastic waste, especially single-use plastics like straws, bags, and packaging, can take hundreds of years to decompose and often end up in the ocean due to poor waste management practices. Once in the ocean, plastic waste can entangle and suffocate marine animals or be ingested, causing internal damage and death. Additionally, plastic waste can break down into smaller particles called microplastics.Reducing plastic use and improving waste management practices are critical steps to protect the health of the oceans and the creatures that inhabit them.</p>
+                </div>
+            </div>
+            <div class="tyu">
+                <div class="miu">
+                    <img src="https://kfmindia.in/wp-content/uploads/2020/09/3c449af6-b689-420a-a93b-f4025d8aca16-1200x519.jpg" width="680px" height="480px" class="kiu">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="eegeta">
+            <div class="pima">
+                <div class="wel">
+                   <div class="fse"><u>PERPETUPLAST</u></div>
+                </div>
+                <div class="tlt">
+                    <p>Plastic waste is a significant environmental problem due to its persistence in the environment. Plastic can take hundreds of years to decompose, and as a result, much of the plastic ever produced still exists in some form today. Plastic waste can break down into smaller particles called microplastics, which can accumulate in soil, water, and the food chain, posing a threat to human and animal health. The scale of plastic waste production and its harmful impact on the environment and human health has become a global concern, leading to increased efforts to reduce plastic use, improve waste management practices, and develop alternative materials.</p>
+                </div>
+            </div>
+            <div class="iyu">
+                <div class="oiu">
+                    <img src="https://www.wwf.org.au/Images/UserUploadedImages/408/img-lifecycle-of-plastics-infographic-1000px.jpg" width="680px" height="480px" class="eiu">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="kegeta">
+            <div class="wima">
+                <div class="rel">
+                   <div class="hse"><u>MICROPLAGUE</u></div>
+                </div>
+                <div class="llt">
+                    <p>Microplastics, tiny plastic particles that cannot be seen with the naked eye, have become a pervasive environmental issue. These particles are now found in every part of the ocean and are also present in drinking water, air, and many other products. Microplastics come from a variety of sources, including the breakdown of larger plastic items, microbeads in personal care products, and the shedding of synthetic fabrics during washing. Once in the environment, microplastics can accumulate in the food chain, potentially causing harm to human and animal health. To mitigate this issue, it is crucial to reduce plastic use and improve waste management practices, as well as promote sustainable alternatives to plastic</p>
+                </div>
+            </div>
+            <div class="eyu">
+                <div class="qiu">
+                    <img src="https://www.jbtc.com/plant-based-protein/wp-content/uploads/sites/7/2022/05/microplaster-header.jpg" width="680px" height="480px" class="riu">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="oegeta">
+            <div class="yima">
+                <div class="eel">
+                   <div class="gse"><u>WILDLIFE</u>&nbsp<u>PLASTICIDE</u></div>
+                </div>
+                <div class="olt">
+                    <p>Plastic pollution is a severe threat to wildlife, with over 700 species of marine animals having been affected by plastic waste. Plastic debris can cause physical harm, such as entanglement and ingestion, leading to injury, suffocation, and death. Wildlife, including seabirds, turtles, whales, and fish, mistake plastic for food, which can cause internal damage and starvation. The accumulation of plastic waste can also disrupt entire ecosystems, with some species outcompeting others or becoming more vulnerable to predators due to changes in habitat. Reducing plastic use, improving waste management practices, and promoting sustainable alternatives to plastic are necessary to protect the health and well-being of wildlife and the environment.</p>
+                </div>
+            </div>
+            <div class="ryu">
+                <div class="xiu">
+                    <img src="https://thumbs.dreamstime.com/z/ocean-nature-protection-pollution-ocean-pollution-impact-ecosystem-wildlife-animals-environmental-problem-concept-210768533.jpg" width="680px" height="480px" class="wiu">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="tegeta">
+            <div class="eima">
+                <div class="qel">
+                   <div class="yse"><u>ECOCONOMY</u></div>
+                </div>
+                <div class="wlt">
+                    <p>Plastic pollution has significant economic impacts, both in terms of lost revenue and increased costs. Plastic waste has a negative impact on tourism, with polluted beaches and waterways deterring visitors and damaging local economies. Additionally, plastic waste cleanup and disposal costs are a significant financial burden on communities, particularly in developing countries where waste management infrastructure is inadequate. The fishing industry is also affected by plastic pollution, with plastic debris causing damage to fishing gear and reducing catch rates. The economic costs of plastic pollution are estimated to be in the billions of dollars per year, making it a critical issue that requires concerted global action to address.</p>
+                </div>
+            </div>
+            <div class="lyu">
+                <div class="ziu">
+                    <img src="https://cdn.statcdn.com/Infographic/images/normal/24874.jpeg" width="680px" height="480px" class="ciu">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="uegeta">
+            <div class="aima">
+                <div class="jel">
+                   <div class="zse"><u>WASTEDILEMMA</u></div>
+                </div>
+                <div class="glt">
+                    <P>Only a small percentage of plastic waste is recycled, with the majority of it ending up in landfills, incinerators, or the natural environment. The recycling process is often expensive and challenging, as plastic waste can be difficult to sort and recycle due to its diverse composition and low value. Furthermore, some plastic waste is contaminated or mixed with other materials, making it unsuitable for recycling. As a result, much of the plastic waste produced each year is not recycled and contributes to the growing global problem of plastic pollution. Reducing plastic use, improving waste management practices, and promoting sustainable alternatives to plastic are necessary to address this issue.</P>
+                </div>
+            </div>
+            <div class="fyu">
+                <div class="kiu">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/recycling-at-home-1637580746.jpg" width="680px" height="480px" class="aiu">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="negeta">
+            <div class="mima">
+                <div class="ael">
+                   <div class="lse"><u>PLASTICOVERUSE</u></div>
+                </div>
+                <div class="xlt">
+                    <p>The use of single-use plastics, such as straws, bags, and utensils, has a particularly significant impact on the environment. Billions of these items are used and discarded each year, contributing to the growing problem of plastic pollution. Single-use plastics are designed to be used only once and then discarded, but they can persist in the environment for hundreds of years, causing harm to wildlife, polluting oceans and waterways, and exacerbating the global plastic waste crisis. Reducing the use of single-use plastics and promoting sustainable alternatives is critical to mitigating the environmental impact of plastic waste.</p>
+                </div>
+            </div>
+            <div class="jyu">
+                <div class="diu">
+                    <img src="https://www.mamajeansmarket.com/sites/default/files/Earth-Day_Could-You-Live-Without-Plastic-_WEBBanner.jpg" width="680px" height="480px" class="tiu">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="legeta">
+            <div class="fima">
+                <div class="hel">
+                   <div class="sse"><u>ENVIRONMENTALINJUSTICE</u></div>
+                </div>
+                <div class="flt">
+                    <p>Plastic pollution disproportionately affects low-income communities and communities of color, who often live in close proximity to landfills, incinerators, and other sources of pollution. These communities are also more likely to lack access to clean drinking water and suffer health problems associated with environmental contamination. Additionally, waste management facilities and recycling centers are often located in or near these communities, exposing residents to harmful pollutants and odors. The problem of environmental injustice highlights the need for systemic changes in waste management practices and policies to reduce the negative impacts of plastic pollution on vulnerable communities.</p>
+                </div>
+            </div>
+            <div class="byu">
+                <div class="siu">
+                    <img src="https://cdn.shopify.com/s/files/1/1953/3723/articles/THUMBNAIL_a696b974-d488-41ef-97c3-f6591f2d18c3.jpg?v=1627896033" width="680px" height="480px" class="miu">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
